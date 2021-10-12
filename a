@@ -1,0 +1,68 @@
+{
+    "receiver": "yzh-alert-receiver",
+    "status": "resolved",
+    "alerts": [
+        {
+            "status": "firing",
+            "labels": {
+                "alertname": "node-exporter-cpu-high",
+                "desc": "节点的cpu总消耗百分比",
+                "instance": "10.68.232.233",
+                "job": "node_exporter",
+                "project_ci_id": "37fb9278-0a49-4ac6-8809-04c02cba0dce",
+                "project_id": "872cc1727756ef4b017767acc4ac0073",
+                "project_name": "运维监控中心_test1",
+                "severity": "warn",
+                "unit": "%"
+            },
+            "annotations": {
+                "alert_owner": "zw0043328",
+                "description": "项目：运维监控中心_test1 实例: 10.68.232.233 cpu 使用率高于 50.816666666651145% 持续了30秒",
+                "instance": "10.68.232.233",
+                "is_incident": "false",
+                "metric_sub_type": "high_usage",
+                "metric_type": "cpu",
+                "object_type": "EC2",
+                "project_id": "872cc1727756ef4b017767acc4ac0073",
+                "project_name": "运维监控中心_test1",
+                "summary": "实例: 10.68.232.233 cpu 使用率高于 50.816666666651145%",
+                "value": "50.816666666651145"
+            },
+            "startsAt": "2021-10-11T14:27:23.908Z",
+            "endsAt": "2021-10-11T14:29:08.908Z",
+            "generatorURL": "http://pekshcsitd37368:9090/graph?g0.expr=node_exporter%3Acpu%3Atotal%3Apercent+%3E+30\u0026g0.tab=1",
+            "fingerprint": "dfd5abbf24b1cc6c"
+        }
+    ],
+    "groupLabels": {
+        "instance": "10.68.232.233"
+    },
+    "commonLabels": {
+        "alertname": "node-exporter-cpu-high",
+        "desc": "节点的cpu总消耗百分比",
+        "instance": "10.68.232.233",
+        "job": "node_exporter",
+        "project_ci_id": "37fb9278-0a49-4ac6-8809-04c02cba0dce",
+        "project_id": "872cc1727756ef4b017767acc4ac0073",
+        "project_name": "运维监控中心_test1",
+        "severity": "major",
+        "unit": "%"
+    },
+    "commonAnnotations": {
+        "alert_owner": "zw0043328",
+        "description": "项目：运维监控中心_test1 实例: 10.68.232.233 cpu 使用率高于 50.816666666651145% 持续了30秒",
+        "instance": "10.68.232.233",
+        "is_incident": "false",
+        "metric_sub_type": "high_usage",
+        "metric_type": "cpu",
+        "object_type": "EC2",
+        "project_id": "872cc1727756ef4b017767acc4ac0073",
+        "project_name": "运维监控中心_test1",
+        "summary": "实例: 10.68.232.233 cpu 使用率高于 50.816666666651145%",
+        "value": "50.816666666651145"
+    },
+    "externalURL": "http://pekshcsitd37368:9093",
+    "version": "4",
+    "groupKey": "{}:{instance=\"10.68.232.233\"}",
+    "truncatedAlerts": 0
+}
